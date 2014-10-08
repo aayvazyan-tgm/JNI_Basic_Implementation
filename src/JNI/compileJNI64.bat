@@ -1,0 +1,1 @@
+x86_64-w64-mingw32-g++ -w  -mno-cygwin -I"%JAVA_HOME%/include" -I"%JAVA_HOME%/include/win32" -Wl,--add-stdcall-alias -shared -o hello.dll HelloJNI.c
